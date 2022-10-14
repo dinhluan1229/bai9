@@ -6,23 +6,23 @@
 </head>
 <body>
 <script>
-  let a=+prompt('doanh số bán hàng');
-  let b;
-  if (a<=10000){
-    b=a/100;
+    let a=+prompt('doanh số bán hàng');
+    let b;
+    if (a<=10000){
+        b=a/100;
+        alert('Hoa hồng là'+b)
+    }
+    else if (a<=20000){
+        b=a/50;
+        alert('Hoa hồng là'+b)
+    }
+    else if (a<=30000){
+        b=a/30;
+        alert('Hoa hồng là'+b)
+    }
+    else
+        b=a/20;
     alert('Hoa hồng là'+b)
-  }
-  else if (a<=20000){
-    b=a/50;
-    alert('Hoa hồng là'+b)
-  }
-  else if (a<=30000){
-    b=a/30;
-    alert('Hoa hồng là'+b)
-  }
-  else
-    b=a/20;
-  alert('Hoa hồng là'+b)
 </script>
 </body>
 </html>
